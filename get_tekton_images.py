@@ -6,7 +6,7 @@ import os
 class Tekton :
     def __init__(self, file_name, registry_user, registry_passwd):
         self.yaml_file = file_name
-        self.arg_imgs = ["gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard@sha256:95f71a2568ced67ec370b5360f88bec3280601908cac9e62dfbb801114480437"]
+        self.arg_imgs = ["gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard:v0.29.2@sha256:67425f5fa32c591578ba6c8b6d4d6a135f8ca195745e023f3f311e3f1ee6ea37"]
         self.split_str = "###"
         self.deployments = ["tekton-pipelines-controller", "tekton-pipelines-webhook"]
         self.kind_type = "Deployment"
