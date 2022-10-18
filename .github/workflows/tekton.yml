@@ -1,4 +1,4 @@
-name: GetTektonImages
+name: Get Tekton Images
 env:
   VERSION: v0.40.2
 
