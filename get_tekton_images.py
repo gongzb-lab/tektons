@@ -79,3 +79,4 @@ if __name__ == '__main__':
     images = tekton.get_images()
     tekton.save_json_file(images, "tekton_images.json")
     tekton.sync_images()
+    print("完成")
