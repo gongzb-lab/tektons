@@ -1,6 +1,6 @@
 name: Get Tekton Images
 env:
-  VERSION: v0.40.2
+  VERSION: v0.40.1
 
 on:
   push:
