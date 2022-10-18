@@ -10,7 +10,7 @@ class Tekton :
         self.split_str = "###"
         self.deployments = ["tekton-pipelines-controller", "tekton-pipelines-webhook"]
         self.kind_type = "Deployment"
-        self.target_registry = "ccr.ccs.tencentyun.com/tektons/"
+        self.target_registry = "registry.cn-hangzhou.aliyuncs.com/tektons/"
         self.repos = [  "controller", "kubeconfigwriter", "git-init",
                         "entrypoint","nop","imagedigestexporter", 
                         "pullrequest-init", "cloud-sdk", "base", "powershell", "webhook"]
